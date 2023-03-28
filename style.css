@@ -227,12 +227,13 @@ ul.lista-info-offerta-2 li > i{
 
 .section-2{
     padding-top: 80px;
+    padding-bottom: 80px;
+    height: 600px;
 }
 
 .section-2 > div {
     line-height: 20px;
     margin-top: 50px;
-    height: 200px;
 }
 
 .section-2 > img{
