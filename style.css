@@ -94,9 +94,9 @@ body{
     margin-top: 40px;
 }
 
-.contenuto-jumbotron > img{
-    max-width: 100%;
-    max-height: 100%;
+.contenuto-jumbotron > div > img{
+    max-width: 70%;
+    max-height: 70%;
     float: right;
 }
 
@@ -105,7 +105,7 @@ body{
     margin-bottom: 20px;
 }
 
-.contenuto-jumbotron > button{
+.contenuto-jumbotron > div > button{
     margin-bottom: 20px;
 }
 
@@ -251,4 +251,10 @@ ul.lista-info-offerta-2 li > i{
 .section-2 > div > button{
     background-color: white;
     padding: 5px;
+}
+
+/* regole sezione 3 */
+
+.section-3 > h2{
+    font-size: 30px;
 }
