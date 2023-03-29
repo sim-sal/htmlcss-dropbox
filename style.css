@@ -242,7 +242,7 @@ ul.lista-info-offerta-2 li > i{
     margin-right: 5%;
 }
 
-.section-2 , .section-3 > div > p{
+.section-2 > div > p , .row > div > p , .row-2 > div > p{
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -255,20 +255,33 @@ ul.lista-info-offerta-2 li > i{
 
 /* regole sezione 3 */
 
-.section > h2{
+.section > h2 , .end-section-3 > h2{
     font-size: 30px;
 }
 
-.section-3{
+.row , .row-2{
     width: 100%;
     display: flex;
     margin-top: 20px;
 }
 
-.section-3 > div{
+.row > div , .row-2 > div{
     margin: 15px;
 }
 
-.section-3 > div > img{
+.row > div > img , .row-2 > div > img{
     max-width: 100%;
 }
+
+.row-2{
+    margin-bottom: 100px;
+}
+
+.end-section-3{
+    width: 60%;
+}
+
+.end-section-3 > h2{
+    margin-bottom: 40px;
+}
+
