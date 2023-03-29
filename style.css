@@ -367,5 +367,22 @@ ul.lista-info-offerta-2 li > i{
     cursor: pointer;
 }
 
+/* regole sezione FAQ */
+.faq-section{
+    line-height: 80px;
+}
 
+.faq-section > h2{
+    font-size: 30px;
+}
+
+.faq-section > span{
+    font-size: 12px;
+}
+
+.faq-section > span > i{
+    float: right;
+    margin-top: 35px;
+    margin-right: 35px;
+}
 
