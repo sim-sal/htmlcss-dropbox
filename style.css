@@ -386,3 +386,44 @@ ul.lista-info-offerta-2 li > i{
     margin-right: 35px;
 }
 
+/* regole footer */
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer > section{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+footer > section > div{
+    width: 17%;
+    text-align: left;
+    line-height: 25px;
+}
+
+footer > section > div > h3{
+    margin-bottom: 15px;
+}
+
+footer > section > div > span{
+    font-size: 12px;
+}
+
+footer > section > div > hr{
+    margin-top: 80px;
+    width: 60%;
+    opacity: 60%;
+}
+
+.language{
+    opacity: 60%;
+}
+.language > i{
+    padding: 5px;
+}
