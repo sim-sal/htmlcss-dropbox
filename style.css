@@ -242,7 +242,7 @@ ul.lista-info-offerta-2 li > i{
     margin-right: 5%;
 }
 
-.section-2 > div > p{
+.section-2 , .section-3 > div > p{
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -255,6 +255,20 @@ ul.lista-info-offerta-2 li > i{
 
 /* regole sezione 3 */
 
-.section-3 > h2{
+.section > h2{
     font-size: 30px;
+}
+
+.section-3{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-3 > div{
+    margin: 15px;
+}
+
+.section-3 > div > img{
+    max-width: 100%;
 }
